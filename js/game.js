@@ -16,12 +16,6 @@ function startGame() {
 function load() {
     start = false;
     assetLoader = new AssetLoader();
-    assetLoader.addImage("vault/images/enemyball.png");
-    assetLoader.addImage("vault/images/enemyblade.png");
-    assetLoader.addImage("vault/images/enemyred.png");
-    assetLoader.addImage("vault/images/enemywheel.png");
-    assetLoader.start(startGame)
-}
 
 /**
  * Update the game state
